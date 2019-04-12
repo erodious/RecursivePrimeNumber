@@ -17,7 +17,7 @@ public class Main {
     }
 
     static boolean isPrime(int n, int d) {
-        System.out.println("N: " + n + ", D: " + d);
+        //System.out.println("N: " + n + ", D: " + d);
         if(n / 2 < d) return true;
         if(n % d == 0) return false;
         return isPrime(n, d + 2);
